@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amigo Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="principal">
+        <br>
+        <h1 class="title">Amigo Secreto</h1>
+        <p>Adicione o nome dos seus amigos, e descubra quem será o <strong>escolhido</strong>!</p>
+        <form>
+            <br>
+            <input type="text" min="1" max="40" id="name" class="container__input">
+            <button id="buttonAdd" type="button" class="buttonAdd">Adicionar</button>
+            <button id="buttonRemove" type="button" class="buttonRemove">Remover</button>
+            <button id="buttonDraw" type="button" class="buttonDraw">Sortear</button>
+        </form>
+        <div class="segmentos">
+            <section class="left-side">
+                <br><br>
+                    <ol id="nameList"></ol>
+            </section>
+            <section class="right-side">
+                <img src="img/social-life-animate.svg" alt="pessoas" class="image">
+                <img src="img/github.png" alt="github" class="image-github">
+            </section>
+
+    </div>
+
+    <script src="app.js" defer></script>
+</body>
+
+</html>

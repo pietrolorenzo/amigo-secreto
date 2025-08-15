@@ -1,0 +1,96 @@
+* {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(0, 0, 0);
+    background-color: rgb(247, 225, 205);
+    
+}
+title{
+    font-size: 90px;
+}
+
+.principal {
+    margin: 8rem;
+    font-size:larger;
+    text-size-adjust: true;
+    
+}
+
+.left-side {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 50px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 4rem 0 0 8rem;
+    text-align:justify;
+    font-size: larger;
+    
+}
+
+.namelist {
+    padding-right: 60px;
+}
+
+.right-side {
+    width: 200px;
+    height: 200px;
+    text-align: right;
+    padding-left: 50%;
+    position: fixed;
+
+}
+input {
+    margin-left:  60px;
+    width: 450px; 
+    font-size: medium;
+    border-radius: 25px;
+    border: 2px solid rgb(3, 0, 5);
+    padding: 10px; 
+    height:auto;    
+}
+
+button{
+    box-sizing: content-box;
+    align-items: center;
+    border-radius: 25px;
+    padding: 8px; 
+    width: 70px;
+    height: 15px;
+}
+
+.buttonAdd{
+    background: rgb(123, 207, 141);
+}
+
+.buttonRemove{
+    background: rgb(207, 123, 123);
+}
+
+.buttonDraw{
+    background: rgb(123, 115, 233);
+}
+
+
+.image {
+    position: fixed;   /* fixa na tela */
+    right: 50px;         /* distância da borda direita */
+    top: 200px;          /* distância do topo */
+    width: 300px;        /* ajuste o tamanho */
+    z-index: 100;        /* fica acima de outros elementos */
+}
+.image {
+    width: 40vw;
+    margin-bottom: 12rem;
+}
+
+image-github{
+    position: fixed;   /* fixa na tela */
+    right: 50px;         /* distância da borda direita */
+    top: 900px;          /* distância do topo */
+    width: 300px;        /* ajuste o tamanho */
+    z-index: 100;
+}
+
