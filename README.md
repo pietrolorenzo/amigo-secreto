@@ -1,6 +1,6 @@
 🎁 Projeto Amigo Secreto
 
-Este é um projeto simples de sorteio de Amigo Secreto feito com HTML, CSS e JavaScript. O usuário pode adicionar nomes a uma lista, remover nomes e, quando houver pelo menos dois participantes, sortear aleatoriamente um nome entre os nomes adicionados a lista..
+Projetado para realizar os sorteios de Amigos Secretos feito com HTML, CSS e JavaScript. O usuário pode adicionar nomes a uma lista, remover nomes e, quando houver pelo menos dois participantes, sortear aleatoriamente um nome entre os nomes adicionados a lista..
 
 🧰 Tecnologias Utilizadas
 
